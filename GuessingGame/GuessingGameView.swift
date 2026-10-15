@@ -43,7 +43,7 @@ struct GuessingGameView: View {
     // The message shown to the player, with a symbol and a colour to match it.
     @State var message: String = "I'm thinking of a number from \(lowestNumber) to \(highestNumber)."
     @State var messageSymbol: String = "questionmark.circle.fill"
-    @State var messageColor: Color = Color.indigo
+    @State var messageColor: Color = Color.teal
 
     // Becomes true when the player finds the secret number.
     @State var gameIsOver: Bool = false
